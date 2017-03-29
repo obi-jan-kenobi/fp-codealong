@@ -1,9 +1,8 @@
-var add = function (x, y) { 
-  return x + y
-}
-var multiply = function (x, y) { 
-  return x * y
-}
+// add :: (Num a) => a -> a -> a
+var add = (x, y) => x + y
+
+// multiply :: (Num a) => a -> a -> a
+var multiply = (x, y) => x * y
 
 // Associative
 add(add(x, y), z) === add(x, add(y, z));
