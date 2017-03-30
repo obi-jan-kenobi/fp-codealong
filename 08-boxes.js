@@ -36,7 +36,7 @@ const fromNullable = x =>
 const nullCheck = x => x === null || x === undefined
 
 const upperAndReverse = str =>
-  Container(str)
+  Maybe(str)
   .map(s => s.trim())
   .map(s => s.toUpperCase())
   .fold(s => s.split('').reverse().join(''))
@@ -44,6 +44,7 @@ const upperAndReverse = str =>
 const head = arr => Maybe(arr[0])
 
 console.log(upperAndReverse('hello world'))
+console.log(upperAndReverse(null))
 
-console.log(head([1, 2, 3]).fold(c => c))
-console.log(head([]).map(c => c * 2).fold(c => c))
+//console.log(head([1, 2, 3]).fold(c => c))
+//console.log(head([]).map(c => c * 2).fold(c => c))

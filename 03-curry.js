@@ -1,17 +1,9 @@
 var curry = require('lodash/curry')
 
-var match = curry(function(what, str) {
-  return str.match(what)
-})
+var match = curry((what, str) => str.match(what))
 
-var replace = curry(function(what, replacement, str) {
-  return str.replace(what, replacement)
-})
+var replace = curry((what, replacement, str) => str.replace(what, replacement))
 
-var filter = curry(function(f, ary) {
-  return ary.filter(f)
-})
+var filter = curry((f, ary) => ary.filter(f))
 
-var map = curry(function(f, ary) {
-  return ary.map(f)
-})
+var map = curry((f, ary) => ary.map(f))

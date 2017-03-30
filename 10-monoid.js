@@ -8,8 +8,6 @@ const Sum = x => ({
   empty: () => Sum(0) // this makes Sum a monoid
 })
 
-
-
 const All = x => ({
   x,
   concat: ({x: y}) => All(x && y),
