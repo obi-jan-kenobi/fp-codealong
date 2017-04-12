@@ -11,7 +11,7 @@ Container.prototype.map = function (fn) {
 }
 
 const Maybe = function (x) {
-  this.__value = x
+  this.__value = xg
 }
 
 Maybe.of = function (x) {

@@ -2,6 +2,39 @@
 # yarn lockfile v1
 
 
+control.async@^0.5.3:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/control.async/-/control.async-0.5.3.tgz#4070d503cfb845b3df4ed7e119e21c0a34de70e2"
+  dependencies:
+    core.lambda "~1.0.0"
+    data.maybe "~1.1.0"
+    flaw "~0.1.0"
+    xtend "^3.0.0"
+
+core.lambda@~1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/core.lambda/-/core.lambda-1.0.0.tgz#1260b257d48b6f830c060bf1fce567669f4d1d35"
+
+data.maybe@~1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/data.maybe/-/data.maybe-1.1.0.tgz#dd83d70df2101860357133cade178bf66f168103"
+
+data.task@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/data.task/-/data.task-3.1.1.tgz#e985f5bedadd926b2d63c1a5d2076cff917a52ad"
+
+flaw@~0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/flaw/-/flaw-0.1.0.tgz#c0c3e8f8161675387edada1f6ce84d679b02527f"
+
+folktale@^2.0.0-alpha4:
+  version "2.0.0-alpha4"
+  resolved "https://registry.yarnpkg.com/folktale/-/folktale-2.0.0-alpha4.tgz#a2e1d8d5d9d5e9d230a006efd463c39186121ec1"
+
 lodash@^4.17.4:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+
+xtend@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/xtend/-/xtend-3.0.0.tgz#5cce7407baf642cba7becda568111c493f59665a"
